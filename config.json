@@ -1,0 +1,20 @@
+ {
+   "standard": "WCAG2AAA",
+   "reporter": "html",
+   "runners" : [
+     "axe",
+     "htmlcs"
+   ],
+   "includeNotices": true,
+   "includeWarnings": true,
+   "screenCapture": "screenshots/my-screen-capture.png",
+   "log" : {
+     "debug": "console.log",
+     "error": "console.error",
+     "info": "console.log"
+   }
+
+
+ }
+
+
