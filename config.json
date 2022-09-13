@@ -1,20 +1,17 @@
- {
-   "standard": "WCAG2AAA",
-   "reporter": "html",
-   "runners" : [
-     "axe",
-     "htmlcs"
-   ],
-   "includeNotices": true,
-   "includeWarnings": true,
-   "screenCapture": "screenshots/my-screen-capture.png",
-   "log" : {
-     "debug": "console.log",
-     "error": "console.error",
-     "info": "console.log"
-   }
+{
+  "defaults": {
+    "reporters": [
 
+      ["pa11y-ci-reporter-html",
+        { "destination": "./reports", "includeZeroIssues": true }]
+      ]
+  },
+   "urls": [
+     "https://dickenson-ar.grootsdrive.in/",
+     "https://dickenson-ar.grootsdrive.in/index.php/about-the-bank/"
+   ]
 
- }
+}
+
 
 
